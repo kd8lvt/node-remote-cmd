@@ -6,7 +6,8 @@ Installation couldn't be much simpler! Download the zip files for each side, and
     
 1. Download and install NodeJS https://nodejs.org/
     
-2. Download the zip files.
+2. Download the zip files from the releases tab.
+    
     THE CLIENT RUNS THE CHILD PROCESS. So, you want to download the CLIENT on the computer running the program, and the SERVER on the computer getting the output.
     
 3. Extract the zip files to where you want them.
