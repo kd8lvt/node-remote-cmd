@@ -17,7 +17,7 @@ const config = {
 
 const spawn = require('child_process').spawn; //Get spawn function
 const io = require('socket.io-client'); //Get the socket.io client constructor
-const client = io(config.host); //Create a socket.io client
+const client = io(config.host+":"+config.port); //Create a socket.io client
 var child;
 
 function reload() {
