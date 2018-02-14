@@ -1,0 +1,28 @@
+{
+  "name": "remote-cmd-client",
+  "version": "0.0.1",
+  "description": "A remote CMD wrapper. Designed for Minecraft servers, but works with just about any CLI program!",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io-client": "^2.0.4",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kd8lvt/node-remote-cmd/tree/master/"
+  },
+  "keywords": [
+    "remote",
+    "cli",
+    "client-side",
+    "minecraft",
+    "server",
+    "wrapper"
+  ],
+  "author": "kd8lvt",
+  "license": "ISC"
+}
