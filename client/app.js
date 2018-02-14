@@ -3,7 +3,7 @@ const config = {
 	host: "your.host.goes.here",                        //Hostname to the server.
 	port: 2082,                                         //Port to connect through. Default: 2082
 	child_process: "java",                              //Program to run.
-	child_args: ['-Xmx6G','-jar','server.jar','nogui'], //Child process arguments. Can be empty.
+	child_args: ['-Xmx6G','-jar','server.jar','nogui'], //Child process arguments. Can be empty. One word per string ("-jar server.jar" will error. Use "-jar", "server.jar" instead!)
 	child_working_dir: "Path:\\to\\your\\working\\dir", //Path to the child process' working directory.
 	reboot_server: true                                 //EXPERIMENTAL. Reboots the child process when it exits... in theory.
 }
